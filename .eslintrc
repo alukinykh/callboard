@@ -1,0 +1,17 @@
+{
+  "extends": ["airbnb"],
+  "env": {
+    "jest": true
+  },
+  "globals": {
+    "window": true,
+    "document": true,
+    "localStorage": true
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "semi": [2, "never"],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "arrow-body-style": ["error", "always"]
+  }
+}
